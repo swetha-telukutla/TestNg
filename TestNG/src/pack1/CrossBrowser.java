@@ -28,13 +28,13 @@ public class CrossBrowser {
 			throw new Exception("Browser is not correct");
 		}
 		
-		driver.close();
+		
 	}
 
 	@Test
 	public void testGoogle() {
 		{
-			driver.get("https://www.google.com/");
+			driver.get("http://www.google.com/");
 		}
 
 	}

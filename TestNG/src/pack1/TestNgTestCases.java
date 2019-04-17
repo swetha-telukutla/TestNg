@@ -47,7 +47,7 @@ public class TestNgTestCases extends ReuseMet {
 	// @Parameters{"unameVal"}
 	public void TestCase1() throws InterruptedException {
 		WebElement un = findElement(By.xpath(" //input[@id='username']"), "user name");
-		enterText(un, "username", "shankarreddy.t-ibof@force.com");
+		enterText(un, "username", "sanka.teluk-g5ib@force.com");
 		WebElement passw = findElement(By.xpath("//input[@id='password']"), "passWord");
 passw.clear();
 		System.out.println("password should be empty");
@@ -70,7 +70,7 @@ passw.clear();
 	// @Parameters{"unameVal"}
 	public void TestCase2() throws InterruptedException {
 		WebElement un = findElement(By.xpath(" //input[@id='username']"), "user name");
-		enterText(un, "username", "shankarreddy.t-ibof@force.com");
+		enterText(un, "username", "sanka.teluk-g5ib@force.com");
 		WebElement pass = findElement(By.xpath("//input[@id='password']"), "passWord");
 		enterText(pass, "password", "Reddy@143");
 	//findElement(By.xpath(" //div[@id='error']"), "password");
@@ -84,7 +84,7 @@ passw.clear();
 	@Test(priority = 3)
 	public void TestCase3() throws InterruptedException {
 	WebElement un = findElement(By.xpath(" //input[@id='username']"), "user name");
-	enterText(un, "username", "shankarreddy.t-ibof@force.com");
+	enterText(un, "username", "sanka.teluk-g5ib@force.com");
 	WebElement pass = findElement(By.xpath("//input[@id='password']"), "passWord");
 	enterText(pass, "password", "Reddy@143");
 
@@ -119,7 +119,7 @@ WebElement userMenu = driver.findElement(By.id("userNav-arrow"));
 	//Logger.log(LogStatus.PASS, forgotpw + "Salesforce forgot password page is displayed ");
 
 	WebElement un = findElement(By.name("un"), "user name");
-	enterText(un, "username", "shankarreddy.t-ibof@force.com");
+	enterText(un, "username", "sanka.teluk-g5ib@force.com");
 	//un.click();
 	WebElement conti = driver.findElement(By.xpath("//input[@id='continue']"));
 	conti.click();
@@ -152,7 +152,7 @@ WebElement userMenu = driver.findElement(By.id("userNav-arrow"));
 	public void TestCase10() throws InterruptedException {
 
 		WebElement un = findElement(By.xpath(" //input[@id='username']"), "user name");
-		enterText(un, "username", "shankarreddy.t-ibof@force.com");
+		enterText(un, "username", "sanka.teluk-g5ib@force.com");
 		WebElement pass = findElement(By.xpath("//input[@id='password']"), "passWord");
 		enterText(pass, "password", "Reddy@143");
 		WebElement login = driver.findElement(By.xpath("//input[@id='Login']"));
@@ -175,7 +175,7 @@ WebElement userMenu = driver.findElement(By.id("userNav-arrow"));
 	@Test(priority = 7)
 	public void TestCase9() throws InterruptedException {
 	WebElement un = findElement(By.xpath(" //input[@id='username']"), "user name");
-	enterText(un, "username", "shankarreddy.t-ibof@force.com");
+	enterText(un, "username", "sanka.teluk-g5ib@force.com");
 	WebElement pass = findElement(By.xpath("//input[@id='password']"), "passWord");
 	enterText(pass, "password", "Reddy@143");
 
